@@ -30,10 +30,15 @@ document.querySelector("#ageMinus").addEventListener("click", function () {
   console.log(age);
   document.querySelector("#age").textContent = age;
 });
-
-document.querySelector(".calculate").addEventListener("click", function () {
+const result = function () {
   let bmi = (weight * 10000) / (rostTwo * rostTwo);
   var result = bmi.toFixed(2);
-  console.log(result);
   alert(`Your BMI is ${result}`);
+};
+
+document.querySelector(".calculate").addEventListener("click", result);
+
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+  }
 });
