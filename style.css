@@ -1,6 +1,7 @@
 * {
   margin: 0;
   border: 0;
+  color: #ffc857;
 }
 
 body {
@@ -8,9 +9,7 @@ body {
 }
 
 h1 {
-  color: #ffc857;
   font-size: 7vh;
-  /* background-color: #4b3f72; */
 
   padding-left: 3vh;
   padding-right: 3vh;
@@ -46,7 +45,6 @@ h1 {
   padding-bottom: 5vh;
   padding-top: 5vh;
   text-align: center;
-  color: #ffc857;
 }
 
 .gender input[type="radio"]:focus + label {
@@ -74,7 +72,6 @@ h1 {
 }
 
 .labelMetrics {
-  color: #ffc857;
   text-align: center;
   font-size: 5vh;
   background-color: #119da4;
@@ -93,7 +90,6 @@ h1 {
   background-color: #19647e;
   font-size: 3vh;
   font-weight: bold;
-  color: #ffc857;
 }
 .button:hover {
   background-color: #4b3f72;
@@ -105,16 +101,13 @@ h1 {
   background-color: #119da4;
   border-radius: 1vh;
   margin: 2vh;
-  color: #ffc857;
 }
 .calculate:hover {
   background-color: #4b3f72;
-  color: #ffc857;
 }
 
 .value {
   font-size: 5vh;
-  color: #ffc857;
 }
 
 .slider {
